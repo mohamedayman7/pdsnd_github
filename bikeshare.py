@@ -198,6 +198,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
 
+#Show more function to show 5 rows each time user choose yes
 def show_more(df):
     view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n').lower()
     start_loc = 0
@@ -210,9 +211,10 @@ def show_more(df):
 
 def main():
     while True:
+        #filtering and loading dataset
         city, month, day = get_filters()
         df = load_data(city, month, day)
-
+        #call fucntions to calculate stats
         time_stats(df, month, day)
         station_stats(df)
         trip_duration_stats(df)
