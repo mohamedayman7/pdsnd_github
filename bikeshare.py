@@ -211,9 +211,10 @@ def show_more(df):
 
 def main():
     while True:
+        #filtering and loading dataset
         city, month, day = get_filters()
         df = load_data(city, month, day)
-
+        #call fucntions to calculate stats
         time_stats(df, month, day)
         station_stats(df)
         trip_duration_stats(df)
