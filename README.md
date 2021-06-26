@@ -6,6 +6,9 @@
 ### Project Title
 Data Exploration with pandas on Bikeshare Data
 
+###Project Overview
+This project focuses on pandas library usage and simple statistics methods to perform a rudimentary analysis on the bikeshare data from three major U.S. cities - Chicago, Washington, and New York City - to display information such as most popular days or most common stations.
+
 ### Description
 The program takes user input for the city (e.g. Chicago), month for which the user wants to view data (e.g. January; also includes an 'all' option), and day for which the user wants to view data (e.g. Monday; also includes an 'all' option).
 
@@ -24,6 +27,8 @@ Types of users by gender (if available)
 The oldest user (if available)
 The youngest user (if available)
 The most common birth year amongst users (if available)
+
+
 
 ### Files used
 - chicago.csv - Stored in the data folder, the chicago.csv file is the dataset containing all bikeshare information for the city of Chicago provided by Udacity.
