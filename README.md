@@ -38,6 +38,13 @@ The most common birth year amongst users (if available)
 - washington.csv - Dataset containing all bikeshare information for the city of Washington provided by Udacity. 
 Note: This does not include the 'Gender' or 'Birth Year' data.
 
+### Built with
+Python 3.6.6 - The language used to develop this.
+pandas - One of the libraries used for this.
+numpy - One of the libraries used for this.
+time - One of the libraries used for this.
+
+
 ### Credits
 pandas docs - pandas documentation was immensely helpful in understanding the implemention of pandas methods used in this project.
 Udacity - Udacity's Data Analyst Nanodegree program and their instructors were extremely helpful while I was pursuing this project.
